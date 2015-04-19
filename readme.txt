@@ -1,5 +1,7 @@
 ﻿
-		Beepclock Version 3
+		Beepclock
+
+	マザーボード上のビープスピーカを使って時報を鳴らす何か。
 
 １ 動作環境------------------------------------------------------
 	OS:	Windows 98
@@ -7,17 +9,18 @@
 		Windows 2000
 		Windows XP
 		Windows Server 2003
+		Windows 10 TP Build 10041
 		（確認しているもののみ）
 
 ２ 開発環境------------------------------------------------------
-	OS:Windows XP Professional Edition ja-JP
-	メモリー:1GB
-	CPU:Pentium 4 2.80GHz
-	機種:自作PC
+	OS:Windows 10 TP Build 10041
+	メモリー:4GB
+	CPU:Core i3 3120M
+	機種:パソコン工房 15P3000-i3-TRB
 
 ３ 開発言語------------------------------------------------------
-	Microsoft Visual Studio 2005 ja-JP
-		(Visual C++ 8.0)
+	Microsoft Visual Studio 2010 ja-JP
+		(Visual C++ 2010)
 
 ４ インストール------------------------------------------------------
 	アーカイブを解凍して、適当なフォルダにぶっこんで下さい。
@@ -28,38 +31,51 @@
 	レジストリはいじっていません。
 
 ６ 使用法------------------------------------------------------
-	speedplay3.exe をダブルクリックして起動してください。
+	beepclock.exe をダブルクリックして起動してください。
 	実行ファイル単体で動作します。
 
 	毎時00分と30分に、マザーボード上のブザーを使って、時報を鳴らします。
 	なお,EeePCのように、ブザーがついていないPCは、何も音が鳴りません(笑)
 
 ７ ライセンス------------------------------------------------------
-	このソフトウェアは、著作者である fuwuyuan によってパブリックドメインに置かれています。
-	これは全世界に適用されます。
-		著作物をパブリックドメインに置くことが法律上不可能である場合：
-	fuwuyuan は、何人に対しても、法律上課される条件以外のいかなる条件も付することなく、
-	あらゆる目的でこの著作物を利用することを許諾します。
+	このソフトウェアは、著作者である fuwuyuan/市川ゆり子 によってMIT Licenseのもと公開されています。
 
-	使用に特に制限はありませんが、偶発、あるいは故意に関わらず、当アプリケーションを使用したことにより直接、
+	Copyright (c) 2015 fuwuyuan/市川ゆり子
+	This software is released under the MIT License, see LICENSE.txt.
+	http://opensource.org/licenses/mit-license.php
+
+	Copyright (c) fuwuyuan/市川ゆり子
+	以下の条件を満たす限り、自由な複製・配布・修正を無制限に許可する。
+	・上記の著作権表示と許諾書を、ソフトウェアの複製または重要な部分に記載する
+	・本ソフトウェアは無保証である。自己責任で使用する。
+
+	偶発、あるいは故意に関わらず、当アプリケーションを使用したことにより直接、
 	あるいは間接的に発生した問題により利用者等が被るあらゆる損失、不利益はアプリケーション開発者は補償いたしません。
 
-	This program has been released into the public domain by its author, fuwuyuan.
-	This applies worldwide.
-	This program comes with ABSOLUTELY NO WARRANTY. Use it at your own risk!
+	Copyright (c) 2015 fuwuyuan/市川ゆり子
+	This software is released under the MIT License, see LICENSE.txt.
+	http://opensource.org/licenses/mit-license.php
 
 	雑誌の CD-ROM 等に付属させる場合には、連絡を下さい。
 
-											fuwuyuan. 2011 Feb 14
+											fuwuyuan. 2015 Apr 19
 
 ８ 作者について------------------------------------------------------
-作者名:fuwuyuan
+作者名:fuwuyuan/市川ゆり子
 
 バグ、感想、質問、意見などいろいろ、下記のアドレスまでどうぞ。
-E-Mail:zkpy_fnj@yahoo.co.jp
-Homepage:http://cute.sh/fuwuyuan/
+E-Mail:ichikawayuriko あっとまーく yahoo.co.jp
+Twitter:@IchikawaYukko
+Homepage:http://IchikawaYukko.mydns.jp/
 
 ９ バージョンアップ履歴------------------------------------------------------
+
+Ver 1.21 - 2015年
+パブリックドメインからMIT Licenseに変更
+GitHubにて公開
+
+Ver 1.2 - 2012年
+タスクトレイに常駐するように変更
 
 Ver 1.0 - 2010年
 初版
