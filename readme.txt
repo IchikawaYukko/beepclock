@@ -9,6 +9,7 @@
 		Windows 2000
 		Windows XP
 		Windows Server 2003
+		Windows 10 Build 15063.608
 		Windows 10 TP Build 10041
 		（確認しているもののみ）
 

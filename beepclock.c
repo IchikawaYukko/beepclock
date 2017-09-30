@@ -139,6 +139,8 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 			_tcscpy_s(nIcon.szTip, sizeof(nIcon.szTip), szAppName);
 
 			Shell_NotifyIcon(NIM_ADD, &nIcon);	//タスクトレイにアイコン追加
+			// TODO baloon when launch
+			// Shell_NotifyIcon(NIM_NOTIFY, $hoge);
 			return 0;
 		case WM_COMMAND:
 			//ポップアップメニュー選択処理
@@ -147,6 +149,10 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 					ShowWindow(hwnd, SW_SHOW);
 					break;
 				case ID_BEEPCLOCK_CONFIG:		//設定
+					// TODO make config window
+					break;
+				case ID_BEEPCLOCK_VERSION:
+					// TODO make version info window
 					break;
 				case ID_BEEPCLOCK_QUIT:			//終了
 					DestroyWindow(hwnd);			//ウィンドウを廃棄
